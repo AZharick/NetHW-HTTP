@@ -1,3 +1,5 @@
+package CatRequest;
+
 import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class CatFact {
@@ -22,7 +24,7 @@ public class CatFact {
 
    @Override
    public String toString() {
-      return "CatFact{" +
+      return "CatRequest.CatFact{" +
               "id='" + id + '\'' +
               ", text='" + text + '\'' +
               ", type='" + type + '\'' +
